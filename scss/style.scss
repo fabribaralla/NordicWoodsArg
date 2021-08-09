@@ -1,0 +1,244 @@
+/*----------------GENERAL-----------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------NAVEGADOR-----------------*/
+.nav {
+    &__list {
+        display: flex;
+        height: 35px;
+        width: 100%;
+        list-style-type: none;
+        background-color: black;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-left: 700px;
+    }
+
+    &__item {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    &__text {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+}
+
+/*----------------TITULOS-----------------*/
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 120px;
+    background-color: burlywood;
+
+
+    &__imagen {
+        width: 115px;
+        height: 115px;
+        border-radius: 115px;
+        margin-left: 40px;
+
+    }
+
+
+    &__titulo {
+        margin: 20px;
+        margin-left: 30px;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: black;
+        font-weight: bold;
+        width: 500px;
+        border-left: 1px solid black;
+        padding-left: 30px;
+
+    }
+
+}
+
+.titulos {
+
+    &__secundario {
+        color: rgb(246, 249, 250);
+        font-family: 'Barlow Condensed', sans-serif;
+        text-align: center;
+        letter-spacing: 2px;
+        margin-top: 0px;
+        background-color: black;
+    }
+
+    &__seccion {
+        margin: 20px 0px 10px 20px;
+        font-family: 'Barlow Condensed', sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+
+
+
+    }
+}
+
+/*----------------FOOTER-----------------*/
+.redes {
+    background-color: rgb(80, 75, 75);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+
+    &__sociales {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__img {
+        margin: 20px 5px 20px 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    &__img:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    &__div {
+        display: flex;
+        align-items: flex-end;
+        margin-left: auto;
+    }
+
+    &__p {
+        letter-spacing: 2px;
+        color: white;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+}
+
+/*----------------INDEX-----------------*/
+.cajaInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    &__dos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__imagen {
+        border: 2px solid black;
+        margin: 30px 20px 10px 20px;
+        width: 263px;
+        height: 372px;
+    }
+
+    &__imagen:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    &__body {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: 'Barlow Condensed', sans-serif;
+        color: black;
+        margin: 10px;
+    }
+
+    &__title:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    &__texto {
+        width: 100%;
+        margin: 20px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        color: black;
+    }
+
+}
+
+/*----------------NOSOTROS-----------------*/
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+    &__caja {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 5px 20px 20px;
+        width: 626px;
+        height: 417px;
+    }
+
+    &__texto {
+        color: black;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 1px;
+        width: 500px;
+        margin: 10px 10px 10px 20px;
+        text-align: left;
+    }
+
+    &__imagen {
+        margin: 20px 20px 20px 5px;
+        border: 2px solid black;
+    }
+}
+
+/*----------------PRODUCTOS-----------------*/
+
+/*----------------MATERIA PRIMA-----------------*/
+.materiaPrima {
+    margin: 20px 0px 10px 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+/*----------------CONTACTO-----------------*/
+.maps {
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.botonesForm {
+    padding: 10px 60px 10px 60px;
+    height: 70px;
+    width: 768px;
+}
+
+.formulario {
+    margin: 20px;
+    background-color: burlywood;
+}
+
+/*
+@mixin botones($colorFondo, $colorTexto, $fuente) {
+    background-color: $colorFondo;
+    color: $colorTexto;
+    font-family: $fuente;
+    margin: 10px;
+    height: 40px;
+    width: 75px;
+}
+
+.boton {
+    @include botones(black, white, 'Barlow Condensed', sans-serif)
+}*/
